@@ -1,0 +1,4 @@
+pyinstaller gui_test.py ^
+--exclude-module PyQt6 ^
+--hidden-import=pyqtgraph ^
+--hidden-import=pyqtgraph.Qt 
